@@ -1,0 +1,22 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python cache / compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE / editor settings
+.vscode/
+.idea/
+.DS_Store
+
+# Jupyter / notebook checkpoints
+.ipynb_checkpoints/
+
+# Local data or exports (keep CSVs that are part of assignments)
+*.log
+
