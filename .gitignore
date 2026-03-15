@@ -3,7 +3,7 @@ venv/
 .venv/
 env/
 
-# Python cache / compiled files
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
@@ -17,6 +17,6 @@ __pycache__/
 # Jupyter / notebook checkpoints
 .ipynb_checkpoints/
 
-# Local data or exports (keep CSVs that are part of assignments)
+# Local data
 *.log
 
