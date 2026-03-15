@@ -8,7 +8,7 @@
   - `a22_visualize.py` – plots accelerometer and gyroscope motion data from `motion_data.csv`.
   - `a22_filter_visualize.py` – removes stationary motion samples and plots the compressed motion data; writes `motion_data_filtered.csv`.
 - `a2.2frozen/`
-  - `frozen.py` – earlier experiment script kept for reference.
+  - `frozen.py`
 - `a2.3/`
   - `digitalhealth.py` – processes the Apple Watch / Fitbit dataset for A2.3 (transforms calories, samples participants, visualizes metrics, normalizes/standardizes columns, and creates train/val/test splits).
 
@@ -43,5 +43,3 @@ Install the required libraries (if not already installed):
 ```bash
 pip install matplotlib pandas numpy seaborn scikit-learn
 ```
-
-The Python standard library modules (`csv`, etc.) require no extra installation.
